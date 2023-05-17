@@ -1,4 +1,27 @@
-# motokolistdapp
+# My Motoko List
+
+
+## Additional feactures:
+
+* I have added the "markAsPending" method in the backend to allow you to define whether a task is complete or incomplete by simply tapping it.
+* I have also performed timestamp conversions so that you can add a deadline to your tasks.
+* I have created a decentralized application (DApp) that I designed with my own use in mind, with a simple and minimalist design. I have tried to make it as intuitive as possible, even with responsive capability for phones.
+
+## How it works:
+
+### My list in Motoko
+
+* Update: This option updates the task list in case there is any issue.
+* Manage: When selecting this option, you will be redirected to a task management menu where you can perform the following functionalities:
+* Add: It allows you to add a task with its title, description, and deadline.
+* Edit: It allows you to modify an existing task using its identification (ID). You will be able to edit the title, description, and date.
+* Delete: It allows you to delete a task based on its identification (ID). Please note that this action will be performed immediately and there will be no confirmation button.
+Change task status: By tapping the tasks, you can change their status from pending to completed.
+* Search: At the top, you have the option to search within the tasks using text.
+
+Limitations: It is important to note that the DApp may experience some slowness. To ensure proper functionality, I have implemented alerts that indicate each user action. You can also check this in the console. Don't despair when using the DApp, it works as it should. Another limitation is that it would have been beneficial to implement the use of accounts so that each user has their own tasks, but I don't know how to do it.
+
+//--------------------------------------------------------------------
 
 Welcome to your new motokolistdapp project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
 
