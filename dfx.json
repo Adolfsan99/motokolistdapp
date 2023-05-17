@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "motokolistdapp_backend": {
+      "main": "src/motokolistdapp_backend/main.mo",
+      "type": "motoko"
+    },
+    "motokolistdapp_frontend": {
+      "dependencies": [
+        "motokolistdapp_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/motokolistdapp_frontend/src/index.html"
+      },
+      "source": [
+        "src/motokolistdapp_frontend/assets",
+        "dist/motokolistdapp_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
