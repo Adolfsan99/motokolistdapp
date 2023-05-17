@@ -1,7 +1,7 @@
-# My Motoko List
+# 📝My Motoko List 📲dApp
 
 
-## Additional feactures:
+## Additional feactures ✨:
 
 * I have added the "markAsPending" method in the backend to allow you to define whether a task is complete or incomplete by simply tapping it.
 * I have also performed timestamp conversions so that you can add a deadline to your tasks.
