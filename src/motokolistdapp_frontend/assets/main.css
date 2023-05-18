@@ -41,7 +41,7 @@ label {
 }
 
 html {
-  min-width: 290px;
+  min-width: 19em;
   background-color: #111;
   transition: width .5s ease-in-out .2s
 }
@@ -336,7 +336,7 @@ input {
 @media (max-width: 300px) {
   
 .banner img { 
-width: 18.5em;
+width: 19em;
 }
 
 footer {
