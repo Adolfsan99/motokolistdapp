@@ -9,13 +9,13 @@
 
 ## How it works:
 
-* Refresh: This option updates the task list in case there is any issue.
-* Manage: When selecting this option, you will be redirected to a task management menu where you can perform the following functionalities:
-* Add: It allows you to add a task with its title, description, and deadline.
-* Edit: It allows you to modify an existing task using its identification (ID). You will be able to edit the title, description, and date.
-* Delete: It allows you to delete a task based on its identification (ID). Please note that this action will be performed immediately and there will be no confirmation button.
+* <b>Refresh:</b> This option updates the task list in case there is any issue.
+* <b>Manage:</b> When selecting this option, you will be redirected to a task management menu where you can perform the following functionalities:
+* <b>Add:</b> It allows you to add a task with its title, description, and deadline.
+* <b>Edit:</b> It allows you to modify an existing task using its identification (ID). You will be able to edit the title, description, and date.
+* <b>Delete:</b> It allows you to delete a task based on its identification (ID). Please note that this action will be performed immediately and there will be no confirmation button.
 Change task status: By tapping the tasks, you can change their status from pending to completed.
-* Search: At the top, you have the option to search within the tasks using text.
+* <b>Search:</b> At the top, you have the option to search within the tasks using text.
 
 ### ⚠️ Limitations: 
 
