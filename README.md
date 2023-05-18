@@ -17,7 +17,7 @@
 Change task status: By tapping the tasks, you can change their status from pending to completed.
 * Search: At the top, you have the option to search within the tasks using text.
 
-⚠️ Limitations: It is important to note that the DApp may experience some slowness. To ensure proper functionality, I have implemented alerts that indicate each user action. You can also check this in the console. Don't despair when using the DApp, it works as it should. Another limitation is that it would have been beneficial to implement the use of accounts so that each user has their own tasks, but I don't know how to do it.
+⚠️ Limitations: It is important to note that the DApp may experience some slowness. To ensure proper functionality, I have implemented alerts that indicate each user action. You can also check this in the console. Don't despair when using the DApp, it works as it should. Another limitation is that it would have been beneficial to implement the use of accounts so that each user has their own tasks, but I don't know how to do it, <b>the search works with precise words, is sensitive to upper case and lower case!</b>
 
 //--------------------------------------------------------------------
 
