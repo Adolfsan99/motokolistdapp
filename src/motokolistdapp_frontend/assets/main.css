@@ -305,6 +305,7 @@ input {
     display: flex
   }
 
+
   h1 {
     background-color: rgba(17, 17, 17, .067);
     color: #e5e5e5;
@@ -329,5 +330,17 @@ input {
   .credits{
   margin: 1em;
   }
+  
+}
+
+@media (max-width: 300px) {
+  
+.banner img { 
+width: 18.5em;
+}
+
+footer {
+  width: 80%;
+}
   
 }
