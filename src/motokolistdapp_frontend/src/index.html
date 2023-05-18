@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark">
     <title>My Motoko List</title>
     <link rel="icon" type="image/x-icon" href="favicon.png" />
     <link rel="stylesheet" href="main.css" />
@@ -22,8 +23,8 @@
                 <button class="b-create"><a href="#manage" style="color: #fff">Manage</a></button></a>
             </div>
             <form class="f-search" id="searchForm">
-                <input id="name" alt="Name" type="text" placeholder="Search by text" required/>
-                <button class="b-delete" type="submit">Search</button>
+                <input id="name" alt="Name" type="text" placeholder="Search a homework by text" required/>
+                <button class="b-search" type="submit">Search</button>
                 <section id="greeting"></section>
             </form>
         </div>
@@ -32,7 +33,7 @@
     </div>
     <div class="bigbox">
         <div class="found" style="display: none;">
-            <h2>🔎Found</h2>
+            <h2>📚Results</h2>
             <div class="box-found">
                 <h2>Looking for tasks...</h2>
             </div>
@@ -50,10 +51,10 @@
             </div>
         </div>
     </div>
-    <h2 id="manage">Manage your tasks</h2>
+    <h2 id="manage">🗓️Manage your tasks</h2>
     <div class="bigbox2">
       <form class="f-add" id="addForm">
-        <h2>Add new task</h2>
+        <h2>🆕Add new task</h2>
         <input type="text" placeholder="Title" id="f-add-title" required/>
         <input type="text" placeholder="Description" id="f-add-description" required/>
         <input type="date" placeholder="yy-mm-dd" id="f-add-time" required/>
@@ -61,7 +62,7 @@
         <br>
       </form>
       <form class="f-edit" id="editForm">
-        <h2>Edit a task</h2>
+        <h2>✏️Edit a task</h2>
         <input type="text" placeholder="ID of the task" id="f-edit-taskId" required/>
         <input type="text" placeholder="Title" id="f-edit-title" required/>
         <input type="text" placeholder="Description" id="f-edit-description" required/>
@@ -70,7 +71,7 @@
         <br>
       </form>
       <form class="f-delete" id="deleteForm">
-        <h2>Delete a task</h2>
+        <h2>❌Delete a task</h2>
         <input type="text" placeholder="ID of the task" id="f-delete-taskId" required>
         <button class="b-delete">Delete</button>
         <br><br><br>
@@ -83,7 +84,7 @@
                 <img class="ic-img" src="img/logo.svg">
             </div>
         </a>
-        <p style="font-family: system-ui; color: #e5e5e5; margin-left: 1em;">Web3 Page by <a href="https://github.com/Adolfsan99" target="_blank">Adolfsan99</a> (Aszelt)</p>
+        <p class="credits">Web3 Page by <a href="https://github.com/Adolfsan99" target="_blank">Adolfsan99</a> (Aszelt)</p>
     </footer>
 
 </body>
