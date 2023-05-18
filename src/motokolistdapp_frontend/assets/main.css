@@ -79,18 +79,18 @@ p {
 .t-id,
 .t-title {
   font-weight: 700;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: system-ui;
   font-size: larger
 }
 
 .t-description {
   font-size: medium;
-  font-family: auto
+  font-family: serif;
 }
 
 .t-time {
   font-weight: 700;
-  font-family: 'Courier New', Courier, monospace
+  font-family: serif;
 }
 
 .banner img {
