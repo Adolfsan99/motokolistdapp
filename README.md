@@ -41,6 +41,8 @@ To learn more before you start working with motokolistdapp, see the following do
 
 If you want to start working on your project right away, you might want to try the following commands:
 
+Rename first the folder to "motokolistdapp"
+
 ```bash
 cd motokolistdapp/
 dfx help
